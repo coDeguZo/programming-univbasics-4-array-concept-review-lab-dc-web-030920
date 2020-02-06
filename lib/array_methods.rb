@@ -16,6 +16,10 @@ zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
   
+  1.times do |value_to_find|
+    array[value_to_find]
+  end
+  puts array[value_to_find]
 end
 
 def find_max_value(array)
