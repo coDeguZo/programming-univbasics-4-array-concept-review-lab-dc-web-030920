@@ -29,6 +29,9 @@ def find_max_value(array)
   array.max
 end
 
-def find_min_value(array)
-  # Add your solution here
+def find_max_value(array)
+  1.times do
+    array.min
+  end
+  array.min
 end
