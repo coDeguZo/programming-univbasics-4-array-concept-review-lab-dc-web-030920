@@ -19,7 +19,7 @@ def find_element_index(array, value_to_find)
   1.times do |value_to_find|
     array[value_to_find]
   end
-  return array[value_to_find]
+  array[value_to_find]
 end
 
 def find_max_value(array)
